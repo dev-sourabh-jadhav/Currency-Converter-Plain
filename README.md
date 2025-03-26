@@ -29,7 +29,7 @@ A simple currency converter built using **HTML, Bootstrap, and JavaScript**. Thi
 5. The converted amount will be displayed below.
 
 ## 🔗 Live Demo
-[Click Here to View](https://currency-converter-plain.vercel.app/)
+[Click Here to View](https://currency-converter-plain.vercel.app)
 
 ## API Requirements
 This project uses the **ExchangeRate API** and **REST Countries API**.
