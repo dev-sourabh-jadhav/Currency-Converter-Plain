@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     const apiKey = '1b2a93048b58e0519566a53b'; // Replace with your actual API key
     const exchangeRateUrl = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`;
@@ -43,7 +42,7 @@ $(document).ready(function () {
         if (!state.id) return state.text;
         let flagUrl = $(state.element).attr('data-flag');
         return flagUrl
-            ? $(`<span><img src="${flagUrl}" width="20" height="15" style="margin-right:5px;"> ${state.text}</span>`)
+            ? $(`<span> ${state.text}</span>`)
             : state.text;
     }
 
